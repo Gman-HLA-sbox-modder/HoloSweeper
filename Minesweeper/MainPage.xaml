@@ -22,17 +22,16 @@
             </Grid.ColumnDefinitions>
 
             <Button Content="Difficulty"
-                FontSize="32"
+                FontSize="22"
                 Grid.Column="0"
-                    HorizontalAlignment="Center"
-                Margin="40 0 0 0"
+                Margin="90,0,0,0"
                 Padding="20 10 20 10">
                 <Button.Flyout>
                     <MenuFlyout Placement="Bottom">
                         <MenuFlyoutItem x:Name="easyFlyoutItem"
                                     Text="Easy"
                                     Padding="3"
-                                    FontSize="32"
+                                    FontSize="22"
                                     Click="easyFlyoutItem_Click">
                             <MenuFlyoutItem.KeyboardAccelerators>
                                 <KeyboardAccelerator Modifiers="Control"
@@ -43,7 +42,7 @@
                         <MenuFlyoutItem x:Name="mediumFlyoutItem"
                                     Text="Medium"
                                     Padding="3"
-                                    FontSize="32"
+                                    FontSize="22"
                                     Click="mediumFlyoutItem_Click">
                             <MenuFlyoutItem.KeyboardAccelerators>
                                 <KeyboardAccelerator Modifiers="Control"
@@ -54,7 +53,7 @@
                         <MenuFlyoutItem x:Name="hardFlyoutItem"
                                     Text="Hard"
                                     Padding="3"
-                                    FontSize="32"
+                                    FontSize="22"
                                     Click="hardFlyoutItem_Click">
                             <MenuFlyoutItem.KeyboardAccelerators>
                                 <KeyboardAccelerator Modifiers="Control"
