@@ -1,4 +1,2 @@
-# Minesweeper
-Simple UWP Minesweeper
-
-Edited for better use on HoloLens.
+# HoloSweeper
+Minesweeper for Microsoft HoloLens!
